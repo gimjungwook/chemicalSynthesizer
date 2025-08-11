@@ -1,0 +1,25 @@
+print ==========Initilization==========
+addNode A
+addNode B
+addNode C
+addNode D
+addEdge A B 5,
+addEdge A B 3,glove & test
+addEdge B C 4,vacuum
+addEdge B D 6,
+addEdge D C 1,high_temp
+print ==========InventoryInitialization==========
+showInventory
+addCondition glove
+showInventory
+show
+print ==========Synthesis==========
+synthesize A C
+print ==========visualization==========
+visualize test1
+print ==========addExtraCondition==========
+addCondition vacuum
+addCondition high_temp
+print ==========TrySynthesizeAgain==========
+synthesize A C
+visualize test2
